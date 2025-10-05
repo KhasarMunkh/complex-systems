@@ -12,7 +12,7 @@ import (
 )
 
 var frameNum int
-var recording = true
+var recording = false
 
 type Game struct {
 	Agents        []Agent
